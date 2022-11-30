@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: 'JetBrains Mono', monospace;
+  background: #2C2B3D;
+
+  min-height: 100vh;
+  
+}
+.page {
+  width: 1083px;
+  margin: 0 auto;
+  padding-top: 71px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  /*display flex coloca um do lado do lado do outro*/
+  display: flex;
+  /*gap espaçamento*/
+  gap: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+ul li a {
+  opacity: 0.5;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+}
+ul li a:hover {
+  font-weight: bold;
+}
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-align: center;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #C2C2C2;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  width: 604px;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*espaço entre nav e main*/
+  margin-top: 100.95px ;
+
+}
+span {
+  color: #00BFA6;
+  font-weight: bold
+}
+footer {
+  font-family: 'JetBrains Mono', monospace;
+  color: white;
+  text-align: center;
+
+  /*linha acima do nome para mais...
+  solid linha normal*/
+  border-top: 1px solid #00BFA6;
+  /*tamanho da largura*/
+  width: 568px;
+  /*margin normal centraliza no centro de tudo*/
+  margin: 100px auto 23px;
+  /*preenchimento do topo, nesse caso da escrita ate a linha*/
+  padding-top: 27px;
+  
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+#cadeado {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+}
+
+
+/*top, right(direito), botton(baixo), left(esquerdo) (relogio no margin)*/ 
+
